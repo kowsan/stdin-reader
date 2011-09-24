@@ -1,12 +1,7 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2011-09-24T23:48:57
-#
-#-------------------------------------------------
 
 QT       += core
 
-QT       -= gui
+QT  -= gui
 
 TARGET = stdinreader
 CONFIG   += console
