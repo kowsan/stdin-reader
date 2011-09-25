@@ -12,14 +12,16 @@ public:
 
 private:
     void run();
+
 private slots:
-    void writeSTDOUT(const QString &message);
-    void writeSTDERRR(const QString &errorString);
 
 signals:
     void dataReceived(const QString &data);
 
 public slots:
+    void writeSTDOUT(const QString &message);
+    void writeSTDERRR(const QString &errorString);
+
 
 };
 
